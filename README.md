@@ -10,24 +10,35 @@ This project was developed to provide immediate assistance during emergencies by
 The IoT-Based Smart Safety Band with Real-Time Emergency Alerts is a compact and wearable device designed to send emergency alerts instantly when the panic button is activated.                                    
 Once triggered, the device:                                                                                                                                                                                         
 Captures the user’s real-time GPS location                                                                                                                                                                          
-@@ -22,22 +22,22 @@ The system is lightweight, portable, user-friendly, and suitable for continuous
-👩‍🎓 Ideal for women, students, elderly people, and travelers                                                                                                                                                        
+Sends an SMS alert with location details to predefined emergency contacts using a GSM module                                                                                                                        
+Works independently of smartphones, ensuring reliability even in critical situations                                                                                                                                
+The system is lightweight, portable, user-friendly, and suitable for continuous use.                                                                                                                                
+
+**✨ Key Highlights**                                                                                                                                                                                              
+🚨 One-click panic button for emergencies                                                                                                                                                                          
+📍 Real-time GPS tracking                                                                                                                                                                                          
+📩 Automatic SMS alerts to emergency contacts                                                                                                                                                                      
+📡 GSM-based communication (no internet required)                                                                                                                                                                  
+⌚ Wearable, lightweight, and portable design                                                                                                                                                                      
+🔋 Reliable operation with minimal user interaction                                                                                                                                                                
+👩‍🎓 Ideal for women, students, elderly people, and travelers                                                                                                                                                       
 
 **🛠️ Technologies & Devices Used**                                                                                                                                                                                 
-Hardware Components:                                                                                                                                                                                                
+-Hardware Components:                                                                                                                                                                                                
 **Hardware Components:**                                                                                                                                                                                            
-                    Microcontroller - Arduino Nano                                                                                                                                                                  
-                    GPS Module (for real-time location tracking) - Neo-6M                                                                                                                                           
-                    GSM Module (for SMS communication) - SIM800A                                                                                                                                                    
-                    Panic Button                                                                                                                                                                                    
-                    Power Supply / Battery - 3.7V Li-ion                                                                                                                                                            
-                    Wearable Band Enclosure                                                                                                                                                                         
+Microcontroller - Arduino Nano                                                                                                                                                                  
+GPS Module (for real-time location tracking) - Neo-6M                                                                                                                                           
+GSM Module (for SMS communication) - SIM800A                                                                                                                                                    
+Panic Button                                                                                                                                                                                    
+Power Supply / Battery - 3.7V Li-ion                                                                                                                                                            
+Wearable Band Enclosure 
+
 Software & Technologies                                                                                                                                                                                            
 **Software & Technologies:**                                                                                                                                                                                        
-                    Embedded C++ / Microcontroller Programming                                                                                                                                                      
-                    IoT Concepts                                                                                                                                                                                    
-                    GPS Tracking System                                                                                                                                                                             
-                    GSM-based SMS Alert System                                                                                                                                                                    
+Embedded C++ / Microcontroller Programming                                                                                                                                                      
+IoT Concepts                                                                                                                                                                                    
+GPS Tracking System                                                                                                                                                                             
+GSM-based SMS Alert System                                                                                                                                                                    
 <img width="867" height="604" alt="Hardware Component&#39;s " src="https://github.com/user-attachments/assets/1f9abdc5-1a19-4686-b43d-5b5cf80d32a5" />
 
 
@@ -36,7 +47,12 @@ Software & Technologies
 The Smart Safety Band continuously remains in standby mode.                                                                                                                                                         
 In an emergency situation, the user presses the panic button.                                                                                                                                                       
 The device immediately fetches the current GPS location.                                                                                                                                                            The GPS data is processed by the microcontroller.                                                                                                                                                                  
-@@ -50,24 +50,24 @@ This entire process happens without smartphone dependency, ensuring uninterrupte
+Using the GSM module, an SMS alert containing the user’s real-time location is sent to predefined emergency contacts.                                                                                              
+The alert enables quick action and timely assistance.                                                                                                                                                              
+This entire process happens without smartphone dependency, ensuring uninterrupted performance during emergencies.                                                                                                  
+
+**Output Screenshots:**
+<img width="1075" height="425" alt="image" src="https://github.com/user-attachments/assets/491c9e52-f41d-49a8-af29-18a20e928bfb" />
 <img width="1075" height="444" alt="image" src="https://github.com/user-attachments/assets/44ccfbe1-c016-455c-9b7f-1f71ebc7f6d7" />
 <img width="1135" height="631" alt="Screenshot (113)" src="https://github.com/user-attachments/assets/ae82b7f9-47e3-450a-827a-ea4dd4e13458" />
 
